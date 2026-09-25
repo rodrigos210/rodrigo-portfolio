@@ -1,9 +1,31 @@
 * {
-    font-family: "Times New Roman", Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
-    font-family:'Helvetica', Courier, monospace;
-
+    font-family: Helvetica, Courier, monospace;
+    text-align: center;
+    font-size: 65px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px groove black;
+    align-items: center;
+    height: 600px;
+    
+}
+
+.container div{
+    background-color: transparent;
+    margin: 10px;
+    padding: 20px;
+    border: dotted 1px black;
+}
+    
+/* .engineering-header{
+    background-color: red;
+} */
+
 
