@@ -10,6 +10,7 @@ h1 {
     font-family: Helvetica, Courier, monospace;
     text-align: center;
     font-size: 65px;
+    position: absolute;
 }
 
 .container {
@@ -22,23 +23,37 @@ h1 {
 
 .container div{
     background-color: transparent;
+    display: flex;
     margin: 0px;
     padding: 0px;
     width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+
 
 }
     
 /* .engineering-header{
-    background-color: red;
+    text-align: center;
+
+
+} */
+/* 
+.creative-header {
+    text-align: center;
 } */
 
 .container .engineering-side{
-    background-color:orangered;
+    background-color: wheat;
+    border-right: 1px solid black;
+   
 
 }
 
 .container .creative-side{
-    background-color:blueviolet;
+    background-color:darkcyan;
+    border-left: 1px solid black;
+   
 }
 
 
