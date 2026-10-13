@@ -2,6 +2,10 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 h1 {
     font-family: Helvetica, Courier, monospace;
     text-align: center;
@@ -11,21 +15,31 @@ h1 {
 .container {
     display: flex;
     justify-content: space-evenly;
-    border: 2px groove black;
-    align-items: center;
-    height: 600px;
+    height: 100vh;
+
     
 }
 
 .container div{
     background-color: transparent;
-    margin: 10px;
-    padding: 20px;
-    border: dotted 1px black;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+
 }
     
 /* .engineering-header{
     background-color: red;
 } */
+
+.container .engineering-side{
+    background-color:orangered;
+
+}
+
+.container .creative-side{
+    background-color:blueviolet;
+}
+
 
 
