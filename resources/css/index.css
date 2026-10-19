@@ -7,18 +7,36 @@ body {
 }
 
 h1 {
+    font-family: Bauhaus;
     text-align: center;
     font-size: 65px;
     position: absolute;
     top: 1%;
     left: 1%;
     right: 1%;
+    mix-blend-mode: difference;
+    color: white;
+}
+
+h2 {
+    font-size: 75px;
+}
+
+h2.creative-header {
+    color: white;
+    font-family: "Bauhaus", Futura, "Helvetica Neue";
+}
+
+h2.engineering-header {
+    color: black;
+    font-family: 'Bauhaus', Times, serif;
 }
 
 .container {
     position: relative;
     display: flex;
     height: 100vh;
+    border: 1px black solid;
 }
 
 .container div{
@@ -44,17 +62,49 @@ h1 {
 } */
 
 .container .engineering-side{
-    background-color: wheat;
-    border-right: 1px solid black;
-   
-
+    /* background-image: url("/Users/rodrigo/rodrigo-portfolio/resources/images/grid_white_bg.jpg"); */
+    background-image: url("/Users/rodrigo/rodrigo-portfolio/resources/images/grid_white_bg_2.png"),
+    url("/Users/rodrigo/rodrigo-portfolio/resources/images/satellite_bg.png");
+    background-size: 700px, 1000px;
+    background-blend-mode: multiply;
+    background-repeat: repeat, no-repeat;
+    background-position-y: 0%, 90%;
+    background-position-x: 0%, 50%;
+    
 }
 
 .container .creative-side{
-    background-color:darkcyan;
-    border-left: 1px solid black;
-   
+    background-image: url("/Users/rodrigo/rodrigo-portfolio/resources/images/gravador.png");
+    background-size: 620px;
+    background-color:white;
+    background-blend-mode: multiply;
 }
+
+.divider-top{
+    position: absolute;
+    background-color: black;
+    width: 1px;
+    text-align: center;
+    left: 49.95%;
+    top: 0%;
+    bottom: 94%;
+}
+
+.divider-bottom {
+    position: absolute;
+    background-color: black;
+    width: 1px;
+    text-align: center;
+    left: 49.95%;
+    top: 15%;
+    bottom: 0%;
+}
+
+/* .divider .divider-bottom{
+
+} */
+
+
 
 
 
