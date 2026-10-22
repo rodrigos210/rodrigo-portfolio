@@ -71,12 +71,12 @@ h2.engineering-header {
     background-position-y: 0%, 90%;
     background-position-x: 0%, 50%;
     flex: 1;
-    transition: flex 0.3s ease;
+    transition: flex 0.5s ease;
     
 }
 
 .container .engineering-side:hover{
-    flex: 1.1;
+    flex: 1.5;
 }
 
 .container .creative-side{
@@ -85,14 +85,14 @@ h2.engineering-header {
     background-color:white;
     background-blend-mode: multiply;
     flex: 1;
-    transition: flex 0.3s ease;
+    transition: flex 0.5s ease;
 }
 
 .container .creative-side:hover{
-    flex: 1.1;
+    flex: 1.5;
 }
 
-.divider-top{
+/* .divider-top{
     position: absolute;
     background-color: black;
     width: 1px;
@@ -110,4 +110,4 @@ h2.engineering-header {
     left: 49.95%;
     top: 15%;
     bottom: 0%;
-}
+} */
