@@ -1,5 +1,7 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    /* background-image: url("/Users/rodrigo/rodrigo-portfolio/resources/images/grid_white_bg_2.png"); */
+    background-image: url("../images/grid_white_bg_2.png");
 }
 
 body {
@@ -8,12 +10,7 @@ body {
 
 h1 {
     font-family: Bauhaus;
-    text-align: center;
     font-size: 65px;
-    position: absolute;
-    top: 1%;
-    left: 1%;
-    right: 1%;
     color: black;
 }
 
