@@ -1,0 +1,24 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: Bauhaus;
+    text-align: center;
+    font-size: 65px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    mix-blend-mode: difference;
+    color: white;
+}
+
+h2 {
+    font-size: 75px;
+    mix-blend-mode: difference;
+}

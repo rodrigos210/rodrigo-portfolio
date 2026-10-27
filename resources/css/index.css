@@ -71,12 +71,12 @@ h2.engineering-header {
     background-position-y: 0%, 90%;
     background-position-x: 0%, 50%;
     flex: 1;
-    transition: flex 0.5s ease;
+    transition: flex 0.8s ease;
     
 }
 
 .container .engineering-side:hover{
-    flex: 1.5;
+    flex: 2;
 }
 
 .container .creative-side{
@@ -84,12 +84,13 @@ h2.engineering-header {
     background-size: 620px;
     background-color:white;
     background-blend-mode: multiply;
+    background-position-y: 20%;  
     flex: 1;
-    transition: flex 0.5s ease;
+    transition: flex 0.8s ease;
 }
 
 .container .creative-side:hover{
-    flex: 1.5;
+    flex: 2;
 }
 
 /* .divider-top{
