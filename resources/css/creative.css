@@ -4,6 +4,8 @@
 
 body {
     margin: 0;
+    background-image: url("../images/fundo_revista.png");
+    background-size: 620px;
 }
 
 h1 {
@@ -14,8 +16,8 @@ h1 {
     top: 1%;
     left: 1%;
     right: 1%;
-    mix-blend-mode: difference;
     color: white;
+    mix-blend-mode: difference;
 }
 
 h2 {

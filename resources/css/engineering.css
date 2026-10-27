@@ -1,17 +1,23 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    /* background-image: url("/Users/rodrigo/rodrigo-portfolio/resources/images/grid_white_bg_2.png"); */
-    background-image: url("../images/grid_white_bg_2.png");
 }
 
 body {
     margin: 0;
+    background-image: url("../images/grid_white_bg_2.png");
+    background-size: 620px;
 }
 
 h1 {
     font-family: Bauhaus;
+    text-align: center;
     font-size: 65px;
-    color: black;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    color: white;
+    mix-blend-mode: difference;
 }
 
 h2 {
