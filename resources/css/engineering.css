@@ -14,8 +14,7 @@ h1 {
     top: 1%;
     left: 1%;
     right: 1%;
-    mix-blend-mode: difference;
-    color: white;
+    color: black;
 }
 
 h2 {
