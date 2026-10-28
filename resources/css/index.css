@@ -21,6 +21,7 @@ h1 {
 h2 {
     font-size: 75px;
     mix-blend-mode: difference;
+    margin: 0;
 }
 
 h2.creative-header {
@@ -31,6 +32,14 @@ h2.creative-header {
 h2.engineering-header {
     color: white;
     font-family: 'Bauhaus', Times, serif;
+}
+
+h3 {
+    font-size: 25px;
+    mix-blend-mode: difference;
+    color: whitesmoke;
+    margin: 0;
+    margin-bottom: 200px;
 }
 
 .container {
@@ -48,9 +57,11 @@ h2.engineering-header {
     justify-content: space-evenly;
     align-items: center;
 
-
 }
-    
+
+.headers {
+    text-align: center;
+}
 /* .engineering-header{
     text-align: center;
 
@@ -81,10 +92,11 @@ h2.engineering-header {
 
 .container .creative-side{
     background-image: url("/Users/rodrigo/rodrigo-portfolio/resources/images/gravador.png");
-    background-size: 620px;
+    background-size: 720px;
     background-color:white;
     background-blend-mode: multiply;
-    background-position-y: 20%;  
+    /* background-repeat: no-repeat; */
+    background-position-y: 40%;  
     flex: 1;
     transition: flex 0.8s ease;
 }
